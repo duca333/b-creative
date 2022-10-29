@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: absolute;
+    background-color: white;
+}
+
+.b-creative-logo{
+    width: 15%;
+    height: 110px;
+    margin-left: 17%;
+    margin-right: 10%;
+}
+
+.b-creative-logo:hover{
+    cursor: pointer;
+}
+
+.search-tag1{
+    position: relative;
+    font-size:23px;
+    color: black;
+    margin-right:0.5% ;
+    bottom: 37px;
+    text-decoration: none;
+    
+}
+
+.search-tag1:hover{
+    color: orange;
+}
+
+.text-danger1{
+    position: relative;
+    font-size: 40px;
+    margin-left: 40px;
+    top: -30px;
+}
+
+.text-danger1:hover{
+    color: orange;
+}
+
+.a1{
+    color: black;
+}
+
+
+
