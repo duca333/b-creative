@@ -111,7 +111,7 @@
     font-size: 20px;
 }
 
-.bot :hover{
+.bot:hover{
     cursor: pointer;
 }
 
@@ -122,4 +122,61 @@
     60% {opacity: 1;}
     100% {transform: translateY(0px) scaleY(1); opacity: 1;}
   }
+
+  .o-nama{
+    text-align: center;
+    margin-top: 130px;
+}
+
+.o-nama-naslov{
+    text-align: center;
+    font-family: Arial;
+    letter-spacing: 0.1em;
+}
+
+.o-nama-podvuceno{
+    position: relative;
+    width: 8%;
+    height: 6px;
+    border-radius: 1px;
+    margin: auto;
+    margin-top: 25px;
+    background-image: linear-gradient(to right, red , orange);
+    border:none;
+    margin-bottom: 40px;
+}
+
+.lorem-o-nama{
+    text-align: center;
+    font: 15px Verdana ;
+    margin-bottom: 130px;
+}
+
+.container-ikonice {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    text-align: center;
+}
+
+.text-danger2{
+    position: relative;
+    font-size: 65px;
+}
+
+.text-danger3{
+    position: relative;
+    font-size: 65px;
+    margin-left: 18rem;
+    margin-right: 18rem;
+    height: 100px;
+    width: 100px;
+}
+
+.text-danger4{
+    position: relative;
+    font-size: 65px;
+}
+
 
