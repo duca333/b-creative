@@ -249,6 +249,61 @@
     margin-bottom: 20px;
 }
 
+.icon1:hover{
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+.icon1:hover > .icon-text1{
+    color: orange;
+}
+
+.icon1:hover > .underline-ikonice{
+    background-image: linear-gradient(to right, red, orange);
+    border: none;
+}
+
+.icon1:hover > .lorem{
+    color: black;
+}
+
+.icon2:hover{
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+.icon2:hover > .icon-text2{
+    color: orange;
+}
+
+.icon2:hover > .underline-ikonice{
+    background-image: linear-gradient(to right, red, orange);
+    border: none;
+}
+
+.icon2:hover > .lorem{
+    color: black;
+}
+
+.icon3:hover{
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+.icon3:hover > .icon-text3{
+    color: orange;
+}
+
+.icon3:hover > .underline-ikonice{
+    background-image: linear-gradient(to right, red, orange);
+    border: none;
+}
+
+.icon3:hover > .lorem{
+    color: black;
+}
+
+
 .underline-ikonice {
     margin-left: 25px;
     margin-bottom: 20px;
@@ -357,3 +412,4 @@
     color: white;
     cursor: pointer;
 }
+
