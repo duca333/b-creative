@@ -419,6 +419,9 @@
 .container-portfolio {
     position: relative;
     height: 1020px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
 }
 
 .slika1 {
@@ -437,8 +440,8 @@
 
 .slika4 {
     position: absolute;
-    margin-top: 340px;
-    margin-left: 481px;
+    margin-top: 341px;
+    margin-left: 478px;
 }
 
 .slika5 {
@@ -457,13 +460,15 @@
 .slika7 {
     position: absolute;
     margin-top: 680px;
+    width: 478px;
 }
 
 .slika8 {
     position: absolute;
-    margin-top: 340px;
-    margin-left: 960px;
+    margin-top: 341px;
+    margin-left: 955px;
 }
+
 
 .container-counter {
     background-color: #ef5821;
@@ -478,6 +483,7 @@
     font-family: sans-serif;
     font-weight: bold;
     letter-spacing: 2px;
+    position: relative;
 }
 
 .counter {
@@ -486,8 +492,8 @@
 
 .counter1 {
     color: white;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 190px;
+    margin-right: 190px;
 }
 
 .counter2 {
@@ -497,5 +503,155 @@
 
 .counter3 {
     color: white;
-    margin-left: 150px;
+    margin-left: 190px;
 }
+
+.container-counter-text {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 110px;
+    text-align: center;
+}
+
+.donji-prvi {
+    position: absolute;
+    margin-right: 1800px;
+}
+
+.donji-drugi {
+    position: absolute;
+    margin-right: 1215px;
+}
+
+.donji-treci {
+    position: absolute;
+    margin-right: 625px;
+}
+
+.donji-cetvrti {
+    position: absolute;
+    margin-right: 70px;
+}
+
+.blog-section{
+    margin-top:100px;
+    font-family: sans-serif;
+}
+
+.blog-section > .section-title{
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+.blog-section > .title-underline{
+    width: 150px;
+    height: 5px;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(241,90,35,1) 0%, rgba(250,169,18,1) 100%);
+}
+
+.blog-section > .section-info{
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.blog-section > .section-img-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.blog-section > .section-img-container .img-container {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 480px;
+}
+
+.blog-section > .section-img-container .first-img{    
+    background-image: url(5.BLOG/starbucks.jpg);
+}
+.blog-section > .section-img-container .second-img{    
+    background-image: url(5.BLOG/pride.jpg);
+}
+.blog-section > .section-img-container .third-img{    
+    background-image: url(5.BLOG/finansije.jpg);
+}
+
+.date-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 100px;
+    padding-top: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(241,90,35,1);
+}
+
+.section-img-container{
+    margin-top: 25px;
+}
+
+.title-link-contianer{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.title-link-contianer > h3{
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.title-link-contianer > h4{
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: silver;
+}
+
+.title-link-contianer > a{
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: rgba(241,90,35,1);
+    text-decoration: none;
+}
+
+.title-link-contianer > a > .arrow{
+    width: 10px;
+    height: 1px;
+    background-color: rgba(241,90,35,1);
+    display: inline-block;
+    margin-bottom: 2px;
+    position: relative;
+}
+
+.title-link-contianer > a > .arrow::after{
+    content: "";
+    width: 5px;
+    height: 5px;
+    border: 1px solid rgba(241,90,35,1);
+    border-left: none;
+    border-bottom: none;
+    transform: rotateZ(45deg);
+    position: absolute;
+    top: -2.3px;
+    left: 3px;
+}
+
+
