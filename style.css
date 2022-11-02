@@ -544,6 +544,7 @@
 
 .blog-section{
     margin-top:100px;
+    margin-bottom: 150px;
     font-family: sans-serif;
 }
 
@@ -657,5 +658,57 @@
     top: -2.3px;
     left: 3px;
 }
+
+.container-nas-tim{
+    background-color: #ffe3d8;
+    font-family: sans-serif;
+}
+
+.nista{
+    height: 120px;
+}
+
+.section-title2{
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title-underline1{
+    width: 150px;
+    height: 5px;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(241,90,35,1) 0%, rgba(250,169,18,1) 100%);
+}
+
+.container-slike1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.member1{
+    height:420px ;
+    width: 350px;
+}
+
+.member2{
+    height:420px;
+    width: 350px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.member3{
+    height:420px ;
+    width: 350px;
+    background-color: grey;
+}
+
+.donje-nista{
+    height: 150px;
+}
+
 
 
