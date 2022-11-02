@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+body{
+    min-width: 1200px;
+}
 
 .b-creative-logo {
     width: 15%;
@@ -472,8 +475,8 @@
 .container {
     position: relative;
     width: 50%;
-  }
-  
+}
+
 .container-counter {
     background-color: #ef5821;
     width: 100%;
@@ -502,7 +505,7 @@
 
 .counter2 {
     color: white;
-    
+
 }
 
 .counter3 {
@@ -542,27 +545,27 @@
     margin-right: 70px;
 }
 
-.blog-section{
-    margin-top:100px;
+.blog-section {
+    margin-top: 100px;
     margin-bottom: 150px;
     font-family: sans-serif;
 }
 
-.blog-section > .section-title{
+.blog-section>.section-title {
     text-align: center;
     margin-bottom: 20px;
     letter-spacing: 3px;
     font-size: 30px;
 }
 
-.blog-section > .title-underline{
+.blog-section>.title-underline {
     width: 150px;
     height: 5px;
     margin: auto;
-    background: linear-gradient(90deg, rgba(241,90,35,1) 0%, rgba(250,169,18,1) 100%);
+    background: linear-gradient(90deg, rgba(241, 90, 35, 1) 0%, rgba(250, 169, 18, 1) 100%);
 }
 
-.blog-section > .section-info{
+.blog-section>.section-info {
     width: 800px;
     margin: auto;
     margin-top: 20px;
@@ -570,13 +573,14 @@
     padding-top: 10px;
 }
 
-.blog-section > .section-img-container{
+.blog-section>.section-img-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 30px;
 }
-.blog-section > .section-img-container .img-container {
+
+.blog-section>.section-img-container .img-container {
     position: relative;
     width: 350px;
     height: 350px;
@@ -585,17 +589,19 @@
     background-size: 480px;
 }
 
-.blog-section > .section-img-container .first-img{    
+.blog-section>.section-img-container .first-img {
     background-image: url(5.BLOG/starbucks.jpg);
 }
-.blog-section > .section-img-container .second-img{    
+
+.blog-section>.section-img-container .second-img {
     background-image: url(5.BLOG/pride.jpg);
 }
-.blog-section > .section-img-container .third-img{    
+
+.blog-section>.section-img-container .third-img {
     background-image: url(5.BLOG/finansije.jpg);
 }
 
-.date-box{
+.date-box {
     position: absolute;
     top: 0;
     right: 0;
@@ -606,51 +612,51 @@
     text-align: center;
     font-size: 20px;
     color: white;
-    background-color: rgba(241,90,35,1);
+    background-color: rgba(241, 90, 35, 1);
 }
 
-.section-img-container{
+.section-img-container {
     margin-top: 25px;
 }
 
-.title-link-contianer{
+.title-link-contianer {
     text-align: center;
     margin-top: 25px;
 }
 
-.title-link-contianer > h3{
+.title-link-contianer>h3 {
     font-size: 14px;
     letter-spacing: 2px;
     margin-bottom: 8px;
 }
 
-.title-link-contianer > h4{
+.title-link-contianer>h4 {
     font-size: 12px;
     letter-spacing: 2px;
     color: silver;
 }
 
-.title-link-contianer > a{
+.title-link-contianer>a {
     font-size: 11px;
     letter-spacing: 1px;
-    color: rgba(241,90,35,1);
+    color: rgba(241, 90, 35, 1);
     text-decoration: none;
 }
 
-.title-link-contianer > a > .arrow{
+.title-link-contianer>a>.arrow {
     width: 10px;
     height: 1px;
-    background-color: rgba(241,90,35,1);
+    background-color: rgba(241, 90, 35, 1);
     display: inline-block;
     margin-bottom: 2px;
     position: relative;
 }
 
-.title-link-contianer > a > .arrow::after{
+.title-link-contianer>a>.arrow::after {
     content: "";
     width: 5px;
     height: 5px;
-    border: 1px solid rgba(241,90,35,1);
+    border: 1px solid rgba(241, 90, 35, 1);
     border-left: none;
     border-bottom: none;
     transform: rotateZ(45deg);
@@ -659,29 +665,29 @@
     left: 3px;
 }
 
-.container-nas-tim{
+.container-nas-tim {
     background-color: #ffe3d8;
     font-family: sans-serif;
 }
 
-.nista{
+.nista {
     height: 120px;
 }
 
-.section-title2{
+.section-title2 {
     letter-spacing: 3px;
     text-align: center;
     margin-bottom: 30px;
 }
 
-.title-underline1{
+.title-underline1 {
     width: 150px;
     height: 5px;
     margin: auto;
-    background: linear-gradient(90deg, rgba(241,90,35,1) 0%, rgba(250,169,18,1) 100%);
+    background: linear-gradient(90deg, rgba(241, 90, 35, 1) 0%, rgba(250, 169, 18, 1) 100%);
 }
 
-.container-slike1{
+.container-slike1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -689,26 +695,191 @@
     position: relative;
 }
 
-.member1{
-    height:420px ;
+.member1 {
+    height: 420px;
     width: 350px;
 }
 
-.member2{
-    height:420px;
+.member2 {
+    height: 420px;
     width: 350px;
     margin-left: 60px;
     margin-right: 60px;
 }
-.member3{
-    height:420px ;
+
+.member3 {
+    height: 420px;
     width: 350px;
     background-color: grey;
 }
 
-.donje-nista{
+
+
+.donje-nista {
     height: 150px;
 }
 
+.kontaktirajte-nas {
+    font-family: sans-serif;
+}
+
+.razmak {
+    height: 120px;
+}
+
+.naslov-kontaktirajte-nas {
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.podvuceno {
+    width: 150px;
+    height: 5px;
+    margin: auto;
+    background: linear-gradient(90deg, rgba(241, 90, 35, 1) 0%, rgba(250, 169, 18, 1) 100%);
+}
+
+.forma {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+
+}
+
+.ime {
+    width: 700px;
+    height: 45px;
+    border: solid black 1px;
+    margin-bottom: 35px;
+}
+
+.poruka {
+    font-family: sans-serif;
+    width: 700px;
+    height: 150px;
+    margin-bottom: 35px;
+}
+
+.dugmence {
+    background-color: white;
+    width: 160px;
+    height: 40px;
+    border: solid black 1px;
+}
+
+.dugmence:hover {
+    cursor: pointer;
+}
+
+.ikonice-kontaktirajte-nas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 70px;
+    position: relative;
+
+}
+
+.info1 {
+    text-align: left;
+}
+
+.info2 {
+    text-align: left;
+    align-items: center;
+
+}
+
+.info3 {
+    text-align: left;
+}
+
+.text-danger5 {
+    position: absolute;
+    
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    
+}
+
+.text-danger6 {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+
+}
+
+.text-danger7 {
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
 
 
+.adress-info {
+    display: inline-block;
+    margin-left: 100px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+
+.mail-info {
+    display: inline-block;
+    margin-left: 100px;
+    font-size: 12px;
+    margin-bottom: 60px;
+}
+
+
+.tel-info {
+    display: inline-block;
+   margin-left: 100px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.circle{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    margin-left: -20px;
+}
+
+.info1-circle{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border: solid black 1px;
+    border-radius: 50%;
+    margin-bottom: 310px;
+    margin-left: 4px;
+}
+
+.info2-circle{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border: solid black 1px;
+    border-radius: 50%;
+    margin-bottom: 510px;
+    margin-left: 5px;
+}
+
+.info3-circle{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border: solid black 1px;
+    border-radius: 50%;
+    margin-bottom: 710px
+}
