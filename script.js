@@ -44,3 +44,40 @@ let upto3=0;
     }
 }
 
+document.querySelector("button.prvi").addEventListener('click', () => {
+    let buttons = document.querySelector(".container-portfolio").children
+    for(let button of buttons){
+        button.style.visibility = "visible";
+    }
+});
+
+document.querySelector("button.drugi").addEventListener('click', () => {
+    let buttons = document.querySelector(".container-portfolio").children
+    for(let button of buttons){
+        if(button.classList.contains("logo-dizajn"))
+            button.style.visibility = "visible";
+        else
+            button.style.visibility = "hidden";
+    }
+});
+
+document.querySelector("button.treci").addEventListener('click', () => {
+    let buttons = document.querySelector(".container-portfolio").children
+    for(let button of buttons){
+        if(button.classList.contains("web-dizajn"))
+            button.style.visibility = "visible";
+        else
+            button.style.visibility = "hidden";
+    }
+});
+
+document.querySelector("button.cetvrti").addEventListener('click', () => {
+    let buttons = document.querySelector(".container-portfolio").children
+    for(let button of buttons){
+        if(button.classList.contains("development"))
+            button.style.visibility = "visible";
+        else
+            button.style.visibility = "hidden";
+    }
+});
+

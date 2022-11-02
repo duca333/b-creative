@@ -469,7 +469,11 @@
     margin-left: 955px;
 }
 
-
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
 .container-counter {
     background-color: #ef5821;
     width: 100%;
