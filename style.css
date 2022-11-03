@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body{
+body {
     min-width: 1200px;
 }
 
@@ -750,6 +750,10 @@ body{
 
 }
 
+.ime::placeholder {
+    color: black;
+}
+
 .ime {
     width: 700px;
     height: 45px;
@@ -800,11 +804,11 @@ body{
 
 .text-danger5 {
     position: absolute;
-    
+
     text-align: center;
     font-size: 30px;
     margin-top: 40px;
-    
+
 }
 
 .text-danger6 {
@@ -841,12 +845,12 @@ body{
 
 .tel-info {
     display: inline-block;
-   margin-left: 100px;
+    margin-left: 100px;
     font-size: 12px;
     margin-bottom: 20px;
 }
 
-.circle{
+.circle {
     display: flex;
     position: relative;
     justify-content: center;
@@ -855,7 +859,7 @@ body{
     margin-left: -20px;
 }
 
-.info1-circle{
+.info1-circle {
     position: absolute;
     height: 60px;
     width: 60px;
@@ -865,7 +869,7 @@ body{
     margin-left: 4px;
 }
 
-.info2-circle{
+.info2-circle {
     position: absolute;
     height: 60px;
     width: 60px;
@@ -875,11 +879,179 @@ body{
     margin-left: 5px;
 }
 
-.info3-circle{
+.info3-circle {
     position: absolute;
     height: 60px;
     width: 60px;
     border: solid black 1px;
     border-radius: 50%;
     margin-bottom: 710px
+}
+
+.container-bottom {
+    background-color: #212121;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.final1 {
+    margin-top: 60px;
+}
+
+.final-headers {
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 270px;
+
+}
+
+.header1 {
+    margin-bottom: 25px;
+}
+
+.header1:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.final-title {
+    letter-spacing: 1px;
+
+}
+
+.final-title:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.subscription {
+    margin-top: 60px;
+}
+
+.final-logo {
+    width: 125px;
+    height: 70px;
+    background-color: #212121;
+    margin-left: -10px;
+}
+
+.final-logo:hover {
+    cursor: pointer;
+}
+
+.lorem333 {
+    font-size: 12px;
+}
+
+.sub-text {
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.sub-text:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.sub-input {
+    width: 440px;
+    height: 30px;
+    border: solid white 2px;
+    color: white;
+    background-color: #212121;
+    margin-bottom: 25px;
+}
+
+.sub-input::placeholder {
+    color: white;
+    opacity: 1;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.sub-button {
+    height: 35px;
+    width: 155px;
+    border: solid #212121 1px;
+    background-color: #212121;
+    color: white;
+    font-size: 12px;
+}
+
+.sub-button:hover {
+    background-color: white;
+    color: black;
+    border: solid white 1px;
+    cursor: pointer;
+}
+
+.copyright {
+    background-color: black;
+    height: 100px;
+
+}
+
+.cr-text {
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top: 30px;
+    padding-left: 335px;
+}
+
+.cr-icons {
+    margin-top: -10px;
+    margin-right: 350px;
+}
+
+.cr-icons:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.text-danger10:hover {
+    color: orange;
+}
+
+.text-danger11:hover {
+    color: orange;
+}
+
+.text-danger9:hover {
+    color: orange;
+}
+
+
+.text-danger8:hover {
+    color: orange;
+}
+
+
+.text-danger8 {
+    color: white;
+    float: right;
+    margin-left: 50px;
+}
+
+.text-danger9 {
+    color: white;
+    float: right;
+    margin-left: 50px;
+}
+
+.text-danger10 {
+    color: white;
+    float: right;
+    margin-left: 50px;
+}
+
+.text-danger11 {
+    color: white;
+    float: right;
+    margin-left: 50px;
 }
