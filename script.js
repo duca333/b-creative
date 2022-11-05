@@ -1,5 +1,5 @@
 let counts=setInterval(updated);
-let upto=0;
+let upto=181;
     function updated(){
     var count= document.getElementById("counter");
     count.innerHTML=++upto;
@@ -10,7 +10,7 @@ let upto=0;
 }
 
 let counts1=setInterval(updated1);
-let upto1=0;
+let upto1=280;
     function updated1(){
     var count= document.getElementById("counter1");
     count.innerHTML=++upto1;
@@ -22,7 +22,7 @@ let upto1=0;
 
 
 let counts2=setInterval(updated2);
-let upto2=0;
+let upto2=750;
     function updated2(){
     var count= document.getElementById("counter2");
     count.innerHTML=++upto2;
