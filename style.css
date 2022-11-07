@@ -1,11 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     min-width: 1200px;
     max-width: 1920px;
+    font-family: sans-serif !important;
 }
 
 html { scroll-behavior: smooth; }
@@ -438,7 +440,6 @@ html { scroll-behavior: smooth; }
     position: relative;
     margin-top: -340px;
     margin-left: 960px;
-
 }
 
 .image4 {
@@ -465,15 +466,26 @@ html { scroll-behavior: smooth; }
     position: relative;
     margin-left: 1440px;
     margin-top: -683px;
-    width: 480px;
+    width: 463px;
 }
 
 .image8 {
     position: relative;
     margin-top: -4px;
     margin-left: 1440px;
-    width: 480px;
+    width: 463px;
+}
 
+.image__img3{
+    width: 943px;
+}
+
+.image__img7{
+    width: 461px;
+}
+
+.image__img8{
+    width: 463px;
 }
 
 .image__img {
@@ -548,6 +560,7 @@ html { scroll-behavior: smooth; }
     font-weight: bold;
     letter-spacing: 2px;
     position: relative;
+    margin-top: -5px;
 }
 
 .counter {
@@ -633,14 +646,15 @@ html { scroll-behavior: smooth; }
 .blog-section>.section-img-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    column-gap: 70px;
     margin-top: 30px;
 }
 
 .blog-section>.section-img-container .img-container {
     position: relative;
-    width: 350px;
-    height: 350px;
+    width: 330px;
+    height: 400px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 480px;
@@ -662,14 +676,15 @@ html { scroll-behavior: smooth; }
     position: absolute;
     top: 0;
     right: 0;
-    width: 80px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     padding-top: 20px;
     line-height: 30px;
     text-align: center;
     font-size: 20px;
     color: white;
     background-color: rgba(241, 90, 35, 1);
+    margin-top: 8px;
 }
 
 .section-img-container {
@@ -755,40 +770,40 @@ html { scroll-behavior: smooth; }
 
 .member__img1 {
     position: relative;
-    width: 340px;
-    height: 480px;
+    width: 330px;
+    height: 400px;
 }
 
 .member__img2 {
     position: relative;
-    width: 340px;
-    height: 480px;
+    width: 330px;
+    height: 400px;
 
 }
 
 .member__img3 {
     position: relative;
-    width: 340px;
-    height: 480px;
+    width: 330px;
+    height: 400px;
     background-color: grey;
 }
 
 .member1 {
     position: relative;
-    width: 340px;
+    width: 330px;
     display: block;
 }
 
 .member2 {
     position: relative;
-    width: 340px;
+    width: 330px;
     display: block;
 
 }
 
 .member3 {
     position: relative;
-    width: 340px;
+    width: 330px;
     display: block;
 }
 
@@ -812,8 +827,6 @@ html { scroll-behavior: smooth; }
     opacity: 0;
     transition: opacity 0.25s;
 }
-
-
 
 .member-overlay>* {
     transform: translateY(20px);
@@ -934,13 +947,15 @@ html { scroll-behavior: smooth; }
     height: 45px;
     border: solid black 1px;
     margin-bottom: 35px;
+    padding-left: 25px;
 }
 
 .poruka {
     font-family: sans-serif;
     width: 700px;
-    height: 150px;
+    height: 200px;
     margin-bottom: 35px;
+    padding-left: 25px;
 }
 
 .dugmence {
@@ -979,18 +994,16 @@ html { scroll-behavior: smooth; }
 
 .text-danger5 {
     position: absolute;
-
     text-align: center;
     font-size: 30px;
-    margin-top: 40px;
-
+    margin-top:30px;
 }
 
 .text-danger6 {
     position: absolute;
     text-align: center;
     font-size: 30px;
-    margin-top: 50px;
+    margin-top: 60px;
 
 }
 
@@ -998,7 +1011,7 @@ html { scroll-behavior: smooth; }
     position: absolute;
     text-align: center;
     font-size: 30px;
-    margin-top: 20px;
+    margin-top: -5px;
 }
 
 
@@ -1006,15 +1019,17 @@ html { scroll-behavior: smooth; }
     display: inline-block;
     margin-left: 100px;
     font-size: 12px;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 
 .mail-info {
+    position: relative;
     display: inline-block;
     margin-left: 100px;
     font-size: 12px;
     margin-bottom: 60px;
+    margin-top: 50px;
 }
 
 
@@ -1022,7 +1037,7 @@ html { scroll-behavior: smooth; }
     display: inline-block;
     margin-left: 100px;
     font-size: 12px;
-    margin-bottom: 20px;
+    margin-top: -15px;
 }
 
 .circle {
@@ -1040,7 +1055,7 @@ html { scroll-behavior: smooth; }
     width: 60px;
     border: solid black 1px;
     border-radius: 50%;
-    margin-bottom: 310px;
+    margin-bottom: 293px;
     margin-left: 4px;
 }
 
@@ -1050,8 +1065,8 @@ html { scroll-behavior: smooth; }
     width: 60px;
     border: solid black 1px;
     border-radius: 50%;
-    margin-bottom: 510px;
-    margin-left: 5px;
+    margin-bottom: 520px;
+    margin-left: 4px;
 }
 
 .info3-circle {
@@ -1060,7 +1075,7 @@ html { scroll-behavior: smooth; }
     width: 60px;
     border: solid black 1px;
     border-radius: 50%;
-    margin-bottom: 710px
+    margin-bottom: 762px
 }
 
 .container-bottom {
