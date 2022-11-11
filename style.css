@@ -4,13 +4,155 @@
     box-sizing: border-box;
 }
 
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+    .container-navigation {
+        max-width: 100%;
+    }
+
+
+    .container-portfolio {
+        max-width: 100%;
+        height: 750px;
+    }
+
+    .image__img1 {
+        width: 350px;
+        height: auto;
+        position: relative;
+    }
+
+
+
+    .image1>.image__overlay {
+        width: 300px;
+        margin-left: 25px;
+        
+    }
+
+    .image__img2 {
+        width: 350px;
+        height: 264px;
+        margin-top: 160px;
+        margin-left: -137px;
+        position: relative;
+    }
+
+
+
+    .image2>.image__overlay {
+        width: 335px;
+        height: 260px;
+        margin-top: 170px;
+        margin-left: -130px;
+    }
+
+    .image__img3 {
+        width: 748px;
+        margin-top: 88px;
+        position: relative;
+        margin-left: -268px;
+    }
+
+
+
+    .image3>.image__overlay {
+        width: 725px;
+        margin-top: 95px;
+        margin-left: -260px;
+    }
+
+
+    .image__img4 {
+        width: 340px;
+        height: auto;
+        margin-left: -130px;
+    }
+
+
+
+    .image4>.image__overlay {
+        width: 320px;
+        margin-left: -120px;
+    }
+
+    .image__img5 {
+        width: 340px;
+        height: auto;
+        margin-top: 199px;
+        margin-left: -270px;
+    }
+
+
+
+    .image5>.image__overlay {
+        width: 330px;
+        height: 470px;
+        margin-top: 203px;
+        margin-left: -265px;
+    }
+
+    .image__img6 {
+        width: 350px;
+        height: 340px;
+    }
+
+
+
+    .image6>.image__overlay {
+        width: 330px;
+    }
+
+    .image__img7 {
+        max-width: 410px;
+        height: 240.5px;
+        margin-left: 100px;
+        margin-top: 198px;
+        position: relative;
+    }
+
+
+
+    .image7>.image__overlay {
+        max-width: 450px;
+        height: 243.5px;
+        margin-left: 150px;
+        margin-top: 198px;
+
+    }
+
+    .image__img8 {
+        max-width: 410px;
+        height: 240.5px;
+        position: relative;
+        margin-left: 90px;
+    }
+
+
+
+    .image8>.image__overlay {
+        max-width: 400px;
+        height: 290.5px;
+        margin-left: -405px;
+        
+    }
+
+    .image7{
+        left: -500px;
+    }
+
+    .image8{
+        left: -500px;
+    }
+}
+
+
 body {
-    min-width: 1200px;
-    max-width: 1920px;
     font-family: sans-serif !important;
 }
 
-html { scroll-behavior: smooth; }
+html {
+    scroll-behavior: smooth;
+}
 
 .b-creative-logo {
     width: 15%;
@@ -424,6 +566,10 @@ html { scroll-behavior: smooth; }
     cursor: pointer;
 }
 
+.container-portfolio {
+    display: block;
+}
+
 .image1 {
     position: relative;
     width: 480px;
@@ -459,7 +605,7 @@ html { scroll-behavior: smooth; }
 .image6 {
     position: relative;
     margin-top: -345px;
-    width: 480px;
+    max-width: 480px;
 }
 
 .image7 {
@@ -476,15 +622,15 @@ html { scroll-behavior: smooth; }
     width: 463px;
 }
 
-.image__img3{
-    width: 943px;
+.image__img3 {
+    max-width: 943px;
 }
 
-.image__img7{
+.image__img7 {
     width: 461px;
 }
 
-.image__img8{
+.image__img8 {
     width: 463px;
 }
 
@@ -548,7 +694,7 @@ html { scroll-behavior: smooth; }
 
 .container-counter {
     background-color: #ef5821;
-    width: 100%;
+    max-width: 100%;
     height: 250px;
     text-align: center;
     align-items: center;
@@ -560,7 +706,7 @@ html { scroll-behavior: smooth; }
     font-weight: bold;
     letter-spacing: 2px;
     position: relative;
-    margin-top: -5px;
+    margin-top: -3px;
 }
 
 .counter {
@@ -863,12 +1009,12 @@ html { scroll-behavior: smooth; }
     margin-bottom: 30px;
 }
 
-.text-danger14{
+.text-danger14 {
     margin-right: 15px;
     margin-bottom: 30px;
 }
 
-.text-danger15{
+.text-danger15 {
     margin-bottom: 30px;
 }
 
@@ -888,7 +1034,7 @@ html { scroll-behavior: smooth; }
     color: black;
 }
 
-.ime-underline{
+.ime-underline {
     width: 45px;
     background-color: #ffffff;
     border: solid white 1px;
@@ -897,7 +1043,7 @@ html { scroll-behavior: smooth; }
     margin-bottom: 30px;
 }
 
-.lorem-member{
+.lorem-member {
     text-align: center;
     font-size: 13px;
     font-family: sans-serif
@@ -996,7 +1142,7 @@ html { scroll-behavior: smooth; }
     position: absolute;
     text-align: center;
     font-size: 30px;
-    margin-top:30px;
+    margin-top: 30px;
 }
 
 .text-danger6 {
@@ -1086,6 +1232,7 @@ html { scroll-behavior: smooth; }
     position: relative;
     flex-direction: row;
     justify-content: center;
+    max-width: 100%;
 
 }
 
@@ -1246,7 +1393,7 @@ html { scroll-behavior: smooth; }
     margin-left: 50px;
 }
 
-.bottom-tag{
+.bottom-tag {
     text-decoration: none;
     color: white;
 }
